@@ -33,7 +33,7 @@ La información del servidor se encuentra en el archivo .env, que es pública ya
 
 ### Desarrollo
 
-Esta API fue desarrollada con ExpressJS, Mongoose, Cors, Dotenv, Morgan y Body-parser, 
+Esta API fue desarrollada en Typescript implementando ExpressJS, Mongoose, Cors, Dotenv, Morgan y Body-parser,  
 
 License
 ----
