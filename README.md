@@ -29,10 +29,11 @@ $ npm run build
 $ npx ts-node-dev ./index.ts
 ```
 
+La información del servidor se encuentra en el archivo .env, que es pública ya que no se usa passwords por el momento
 
 ### Desarrollo
 
-Esta API fue desarrollada con ExpressJS, Mongoose, Cors, Dotenv, Morgan y Body-parser
+Esta API fue desarrollada con ExpressJS, Mongoose, Cors, Dotenv, Morgan y Body-parser, 
 
 License
 ----
