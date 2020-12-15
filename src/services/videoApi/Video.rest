@@ -1,0 +1,46 @@
+// Este es un archivo para testear las peticiones.
+// Se recomienda la extensión vscode llamada [ REST Client ]
+// Cambie el puerto según sea la configuración en .env
+
+@api = http://localhost:3000
+
+### Obtener lista de videos
+GET {{api}}/video/list
+
+
+
+### Obtener info de un solo video
+GET {{api}}/video/info/Test title video
+
+
+
+### Crear un video
+POST {{api}}/video/create
+Content-Type: application/json
+
+{
+    "title": "Test title video",
+    "description": "COPY",
+    "url": 2002
+}
+
+
+
+### Borrar un video
+DELETE {{api}}/video/delete/9
+
+
+
+### Actualizar un video
+PUT {{api}}/video/update/1
+Content-Type: application/json
+
+{
+    "perron": "si",
+    "chochon": "nunca"
+}
+
+
+
+### Petición 404
+GET {{api}}/paginaQueNoExiste
