@@ -5,7 +5,7 @@
 Esta api permite almacenar información básica sobre videos de youtube, como ejemplo.
 Por ahora solo en enlace del video en Youtube, mientras se construye el host y se gestiona el almacenamiento.
 
-Videos API viene con un ser de 5 recursos de CRUD:
+Videos API viene con un set de 5 recursos de CRUD:
 
   - video/list
   - /video/info/:title
